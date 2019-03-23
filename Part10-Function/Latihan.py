@@ -1,7 +1,7 @@
 # Latihan Function di Python
 # Script written by Piscki Tama
 
-def volumeBalok(p,l,t):
+def volumeBalok(p,l,t): 
     vol =  p * l * t
     print("panjang balok adalah", p)
     print("lebar balok adalah", l)
