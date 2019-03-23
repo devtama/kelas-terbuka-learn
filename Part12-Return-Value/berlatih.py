@@ -12,5 +12,15 @@ def mtocm(argumen):
     print("sehingga", argumen, "m adalah", cm, "cm")
     return cm
 
-cmtom(9023)
-mtocm(89.29)
+print("*** Selamat datang di Program Konversi CM ke M, dan sebaliknya ***")
+print("Pertama silahkan pilih mana yang akan Anda inginkan\n1. cm to m\n2. m to cm")
+pilihan = int(input("masukkan pilihan anda: "))
+
+if pilihan == 1:
+    cm = int(input("silahkan masukkan angka di cm:"))
+    cmtom(cm)
+elif pilihan == 2:
+    m = int(input("silahkan masukkan angka di cm:"))
+    mtocm(m)
+else:
+    print("pilihan tidak ditemukan!")
