@@ -5,6 +5,7 @@ def cmtom(argumen):
     print("sehingga", argumen, "cm adalah", m, "m")
     return m
 
+# Program konversi meter ke cm
 def mtocm(argumen):
     print("anda memasukan", argumen, "m")
     cm = argumen * 100
