@@ -8,9 +8,9 @@ def ubahKesukaan(new):
     kesukaan = new
     print("saya ubah kesukaan saya menjadi", kesukaan)
 
-ubahKesukaan("php")
+ubahKesukaan("python")
 
-print(40*"=")
+print("")
 
 def pasangan(bahasa,frame):
     global kesukaan, framework
@@ -18,9 +18,9 @@ def pasangan(bahasa,frame):
     framework = frame
 
 pasangan('python','django')
-print("pemrograman", kesukaan,"mempunyai",framework)
+print("pemrograman", kesukaan,"mempunyai framework",framework)
 
-print(40*"=")
+print("")
 
 aku = 'tama'
 dia = 'rahma'
@@ -33,3 +33,16 @@ def jodoh(cowo,cewe):
 
 jodoh("Piscki","Fenti")
 print(aku,"akan menikahi",dia,"di tahun 2024")
+
+print("")
+
+klub = "Persikab"
+stadion = "Si Jalak Harupat"
+
+def fc(klub1, stadion1):
+    global klub, stadion
+    klub = klub1
+    stadion = stadion1
+
+fc("Persib","Siliwagi")
+print(f"Dulu {klub} bermarkas di stadion {stadion}, sekarang di {stadion}")
